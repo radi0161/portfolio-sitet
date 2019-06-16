@@ -1,6 +1,7 @@
 body {
-    display: flex;
     background-image: url(bloomen.jpg);
+    width: 100%;
+    display: flex;
 }
 
 
@@ -41,5 +42,4 @@ body {
     width: 30px;
     height: 5px;
     background: #151719;
-    margin: 5px 0px;
-}
+    margin: 5px 0px
