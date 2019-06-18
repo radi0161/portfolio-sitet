@@ -1,6 +1,21 @@
+* {
+    box-sizing: border-box;
+    color: #dce6f0;
+}
+
 body {
-    background-image: url(sky.jpg);
-    width: 100%;
+    margin: 0;
+    background-image: url(pinki.jpg);
+    background-size: cover
+}
+
+
+
+img {
+    width: 100%
+}
+
+forside {
     display: flex;
 }
 
@@ -11,35 +26,135 @@ body {
     font-family: sans-serif;
 }
 
+header nav a {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+a {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#portfolie {
+    display: flex;
+    background-color: purple;
+    background-size: cover;
+}
+
 #sidebar {
     position: fixed;
-    width: 25%;
+    width: 200px;
     height: 100%;
     background: #151719;
-    left: -25%;
+    left: -200px;
+    top: 0;
     transition: all 500ms linear;
 }
 
 #sidebar.active {
     left: 0px;
+    top: 0;
+
 }
 
 #sidebar ul li {
-    color: White;
+    color: #dce6f0;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+
 }
 
 #sidebar .toggle-btn {
     position: absolute;
-    Left: 400px;
+    right: -40px;
     top: 20px;
+
 }
 
 #sidebar .toggle-btn span {
-    display: flex;
+    display: block;
     width: 30px;
     height: 5px;
-    background: #151719;
-    margin: 5px 0px
+    background: #dce6f0;
+    margin: 5px 0px;
+
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw;
+    flex-direction: row;
+}
+
+#omtxt {
+    margin: 5vw;
+    flex-basis: 1;
+    flex-grow: 300px;
+    width: 400px;
+    text-align: justify;
+}
+
+#ombillede {
+    margin: 5vw;
+    flex-basis: 1;
+    flex-grow: 300px;
+    width: 400px;
+}
+
+.section {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 1px solid #dce6f0;
+    padding: 2.5px;
+}
+
+.section2 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
+    padding: 5px;
+}
+
+.section3 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
+    padding: 5px;
+}
+
+.section4 {
+    margin: 5vw;
+    text-align: justify;
+}
+
+.link {
+    border: 2px solid #dce6f0;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 900px) {
+    .section {
+        margin: 10vw 20vw 5vw 20vw;
+    }
+}
