@@ -100,16 +100,16 @@ p {
 
 #omtxt {
     margin: 5vw;
-    flex-basis: 1;
-    flex-grow: 300px;
+    flex-basis: 300px;
+    flex-grow: 1;
     width: 400px;
     text-align: justify;
 }
 
 #ombillede {
     margin: 5vw;
-    flex-basis: 1;
-    flex-grow: 300px;
+    flex-basis: 300px;
+    flex-grow: 1;
     width: 400px;
 }
 
